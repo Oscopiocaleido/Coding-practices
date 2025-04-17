@@ -39,13 +39,13 @@ int main(){
     if(longitude_1 < 0){
         local_time_1 = UTC - time_zone_1;
     }else if(longitude_1 > 0){
-        local_time_1 = UTC - time_zone_1;
+        local_time_1 = UTC + time_zone_1;
     }
 
     if(longitude_2 < 0){
         local_time_2 = UTC - time_zone_2;
     }else if(longitude_2 > 0){
-        local_time_2 = UTC - time_zone_2;
+        local_time_2 = UTC + time_zone_2;
     }
 
     if(local_time_1 < 0){
